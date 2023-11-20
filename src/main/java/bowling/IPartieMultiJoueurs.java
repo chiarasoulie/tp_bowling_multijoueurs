@@ -13,6 +13,7 @@ public interface IPartieMultiJoueurs {
 	 * de la forme "Prochain tir : joueur Bastide, tour n° 1, boule n° 1"
 	 * @throws java.lang.IllegalArgumentException si le tableau est vide ou null
 	 */
+	
 	public String demarreNouvellePartie(String[] nomsDesJoueurs) throws IllegalArgumentException ;
 	
 	/**
